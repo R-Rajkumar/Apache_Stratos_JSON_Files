@@ -22,9 +22,33 @@
          "imageId":"RegionOne/1cd412c1-54ce-405f-9894-ce1387073c6c",
          "networkInterfaces":[  
             {  
-               "name":"net1-nonroutable",
+               "name":"netOne",
                "networkUuid":"84d52a6d-a9e5-472a-9935-a0e195fe5b4a",
-               "fixedIp":"10.0.1.4",
+               "fixedIp":"10.0.1.4"
+            },
+            {  
+               "name":"netTwo",
+               "networkUuid":"512e1f54-1e85-4dac-b2e6-f0b30fc552cf",
+               "publicNetworkUuids":[
+                  {
+                     "name":"externalOne",
+                     "networkUuid":"8f08a69d-cb46-43c9-9ebe-b89dcc78dacc",
+                  },
+                  {
+                     "name":"externalTwo",
+                     "networkUuid":"b5504321-e7aa-4500-9e00-7bc1b10cb5e9",
+                  }
+               ]
+            },
+            {  
+               "name":"netThree",
+               "networkUuid":"b55f009a-1cc6-4b17-924f-4ae0ee18db5e",
+               "publicNetworkUuids":[
+                  {
+                     "name":"externalThree",
+                     "networkUuid":"83d52a6d-a9e5-572a-9935-a0e195fe5b4r",
+                  }
+               ]
             }
          ],
          "maxInstanceLimit":"4",
@@ -35,11 +59,11 @@
             },
             {  
                "name":"keyPair",
-               "value":"manulac"
+               "value":"raj"
             },
             {  
                "name":"autoAssignIp",
-               "value":true
+               "value":"false"
             }
          ]
       }
