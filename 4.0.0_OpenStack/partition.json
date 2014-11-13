@@ -1,5 +1,5 @@
 {  
-   "id":"AWSEC2AsiaPacificPartition1",
+   "id":"os1",
    "provider":"openstack",
    "property":[  
       {  
