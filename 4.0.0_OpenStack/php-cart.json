@@ -29,6 +29,10 @@
             {  
                "name":"net1",
                "networkUuid":"512e1f54-1e85-4dac-b2e6-f0b30fc552cf"
+            },
+             {  
+               "name":"net2",
+               "networkUuid":"b55f009a-1cc6-4b17-924f-4ae0ee18db5e"
             }
          ],
          "maxInstanceLimit":"4",
