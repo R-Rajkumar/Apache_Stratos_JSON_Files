@@ -5,7 +5,7 @@
       "partitionAlgo":"one-after-another",
       "partition":[  
          {  
-            "id":"AWSEC2AsiaPacificPartition1",
+            "id":"os1",
             "partitionMax":"3",
             "partitionMin":"1"
          }
