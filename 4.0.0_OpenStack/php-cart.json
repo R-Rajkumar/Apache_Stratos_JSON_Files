@@ -28,7 +28,7 @@
          "networkInterfaces":[  
             {  
                "name":"net1",
-               "networkUuid":"84d52a6d-a9e5-472a-9935-a0e195fe5b4a"
+               "networkUuid":"512e1f54-1e85-4dac-b2e6-f0b30fc552cf"
             }
          ],
          "maxInstanceLimit":"4",
